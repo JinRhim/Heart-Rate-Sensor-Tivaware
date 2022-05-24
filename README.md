@@ -60,7 +60,7 @@ initial_load_message_period | initial message refresh rate. If you want message 
 - The array would calculate the 10 seconds average of heart rate reading, and compare it to individual array points. 
 <img width="818" alt="image" src="https://user-images.githubusercontent.com/93160540/170085859-abb73476-69ba-4bc6-89ce-fe86ffa1f900.png">
 
-- If the i<sup>th</sup> term of array value has higher value than i-1<sup>th</sup> value of array or i+1<sup>th</sup> term of array value, then it would be considered as one heart rate. 
+- If the i<sup>th</sup> term of array value has higher value than i-1<sup>th</sup> value of array or i+1<sup>th</sup> term of array value and have higher value than 10 seconds average, then it would be considered as one heart rate. 
 - 10 seconds heart rate * 6 = Heart Rate / min. 
 
 
